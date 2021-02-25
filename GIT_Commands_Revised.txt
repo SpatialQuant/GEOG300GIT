@@ -1,6 +1,6 @@
 A. GIT Terminal Commands
 
-pdw 	-to get current working directory
+pwd 	-to get current working directory
 cd  	-to change working directory
 cd ..	-to move directory one level up
 cd folder/ -to move one level down
@@ -12,10 +12,10 @@ mv	-move files (example: <$ mv geog300git gitstuff/.>)
 
 B. Creating A New Repository in GitHub (note: ALWAYS DO THIS FIRST!!!!)
 
-5a. In GitHub.com account, create a new repo (note: this is recommended way)
+1a. In GitHub.com account, create a new repo (note: this is recommended way)
 
 or in terminal...
-5b. git remote add origin https://github.com/<accountname>/<repo>.git
+1b. git remote add origin https://github.com/<accountname>/<repo>.git
 
 
 
@@ -34,12 +34,16 @@ D. Push Files to GitHub
 1. git init 		- initalizes the git repository
 2. git status		- lists files in the master to commit
 3. git add <filename.ext> (Note: Recommended way) 
+
 or
+
 3b. git add .           - adds all files in repo (Note: Be careful with this command. You may needlessly add lots of files without knowing it!!!)
+
 Also Recommended: 
 run 'git status' again...if file is green, it is ready for commit
+
 4. git commit -m "include a short message here" - completes the commit to GIT 
-5. git push -u origin master
+5. git push
 
 
 
